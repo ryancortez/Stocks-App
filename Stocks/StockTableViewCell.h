@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StockTableViewCell.h
 //  Stocks
 //
 //  Created by Ryan Cortez on 7/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StockTableViewCell : UITableViewCell
 
 @end
-

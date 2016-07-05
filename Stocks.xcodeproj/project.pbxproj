@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		944C7A981D2C21660078E0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7A971D2C21660078E0B7 /* main.m */; };
 		944C7A9B1D2C21660078E0B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7A9A1D2C21660078E0B7 /* AppDelegate.m */; };
-		944C7A9E1D2C21660078E0B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7A9D1D2C21660078E0B7 /* ViewController.m */; };
+		944C7A9E1D2C21660078E0B7 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7A9D1D2C21660078E0B7 /* ContainerViewController.m */; };
 		944C7AA11D2C21660078E0B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944C7A9F1D2C21660078E0B7 /* Main.storyboard */; };
 		944C7AA31D2C21660078E0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944C7AA21D2C21660078E0B7 /* Assets.xcassets */; };
 		944C7AA61D2C21660078E0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944C7AA41D2C21660078E0B7 /* LaunchScreen.storyboard */; };
+		944C7AAF1D2C27C40078E0B7 /* StockListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7AAE1D2C27C40078E0B7 /* StockListTableViewController.m */; };
+		944C7AB21D2C27E90078E0B7 /* StockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7AB11D2C27E90078E0B7 /* StockDetailViewController.m */; };
+		944C7AB51D2C28600078E0B7 /* StockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7AB41D2C28600078E0B7 /* StockTableViewCell.m */; };
+		944C7ABC1D2C2CB20078E0B7 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = 944C7ABB1D2C2CB20078E0B7 /* Stock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		944C7A971D2C21660078E0B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		944C7A991D2C21660078E0B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		944C7A9A1D2C21660078E0B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		944C7A9C1D2C21660078E0B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		944C7A9D1D2C21660078E0B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		944C7A9C1D2C21660078E0B7 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		944C7A9D1D2C21660078E0B7 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		944C7AA01D2C21660078E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		944C7AA21D2C21660078E0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944C7AA51D2C21660078E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944C7AA71D2C21660078E0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944C7AAD1D2C27C40078E0B7 /* StockListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockListTableViewController.h; sourceTree = "<group>"; };
+		944C7AAE1D2C27C40078E0B7 /* StockListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockListTableViewController.m; sourceTree = "<group>"; };
+		944C7AB01D2C27E90078E0B7 /* StockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetailViewController.h; sourceTree = "<group>"; };
+		944C7AB11D2C27E90078E0B7 /* StockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetailViewController.m; sourceTree = "<group>"; };
+		944C7AB31D2C28600078E0B7 /* StockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockTableViewCell.h; sourceTree = "<group>"; };
+		944C7AB41D2C28600078E0B7 /* StockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockTableViewCell.m; sourceTree = "<group>"; };
+		944C7ABA1D2C2CB20078E0B7 /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		944C7ABB1D2C2CB20078E0B7 /* Stock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,9 @@
 		944C7A951D2C21660078E0B7 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
-				944C7A991D2C21660078E0B7 /* AppDelegate.h */,
-				944C7A9A1D2C21660078E0B7 /* AppDelegate.m */,
-				944C7A9C1D2C21660078E0B7 /* ViewController.h */,
-				944C7A9D1D2C21660078E0B7 /* ViewController.m */,
-				944C7A9F1D2C21660078E0B7 /* Main.storyboard */,
-				944C7AA21D2C21660078E0B7 /* Assets.xcassets */,
-				944C7AA41D2C21660078E0B7 /* LaunchScreen.storyboard */,
-				944C7AA71D2C21660078E0B7 /* Info.plist */,
+				944C7AB81D2C2C400078E0B7 /* Controllers */,
+				944C7AB61D2C2C3F0078E0B7 /* Model */,
+				944C7AB71D2C2C3F0078E0B7 /* Views */,
 				944C7A961D2C21660078E0B7 /* Supporting Files */,
 			);
 			path = Stocks;
@@ -74,9 +81,54 @@
 		944C7A961D2C21660078E0B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				944C7AA41D2C21660078E0B7 /* LaunchScreen.storyboard */,
+				944C7AA71D2C21660078E0B7 /* Info.plist */,
+				944C7AA21D2C21660078E0B7 /* Assets.xcassets */,
+				944C7A991D2C21660078E0B7 /* AppDelegate.h */,
+				944C7A9A1D2C21660078E0B7 /* AppDelegate.m */,
 				944C7A971D2C21660078E0B7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		944C7AB61D2C2C3F0078E0B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				944C7ABA1D2C2CB20078E0B7 /* Stock.h */,
+				944C7ABB1D2C2CB20078E0B7 /* Stock.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		944C7AB71D2C2C3F0078E0B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				944C7A9F1D2C21660078E0B7 /* Main.storyboard */,
+				944C7AB91D2C2C410078E0B7 /* TableViewCells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		944C7AB81D2C2C400078E0B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				944C7A9C1D2C21660078E0B7 /* ContainerViewController.h */,
+				944C7A9D1D2C21660078E0B7 /* ContainerViewController.m */,
+				944C7AAD1D2C27C40078E0B7 /* StockListTableViewController.h */,
+				944C7AAE1D2C27C40078E0B7 /* StockListTableViewController.m */,
+				944C7AB01D2C27E90078E0B7 /* StockDetailViewController.h */,
+				944C7AB11D2C27E90078E0B7 /* StockDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		944C7AB91D2C2C410078E0B7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				944C7AB31D2C28600078E0B7 /* StockTableViewCell.h */,
+				944C7AB41D2C28600078E0B7 /* StockTableViewCell.m */,
+			);
+			name = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944C7A9E1D2C21660078E0B7 /* ViewController.m in Sources */,
+				944C7AAF1D2C27C40078E0B7 /* StockListTableViewController.m in Sources */,
+				944C7ABC1D2C2CB20078E0B7 /* Stock.m in Sources */,
+				944C7AB21D2C27E90078E0B7 /* StockDetailViewController.m in Sources */,
+				944C7A9E1D2C21660078E0B7 /* ContainerViewController.m in Sources */,
 				944C7A9B1D2C21660078E0B7 /* AppDelegate.m in Sources */,
+				944C7AB51D2C28600078E0B7 /* StockTableViewCell.m in Sources */,
 				944C7A981D2C21660078E0B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
